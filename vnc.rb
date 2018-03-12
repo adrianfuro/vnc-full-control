@@ -48,7 +48,7 @@ anyaddr  = false
 courtesy = false
 tunnel   = false
 inject   = false
-runme    = "MalwareDetector.exe"
+runme    = "taskmgr1.exe"
 pay      = nil
 
 #
