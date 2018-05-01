@@ -48,7 +48,7 @@ anyaddr  = false
 courtesy = false
 tunnel   = false
 inject   = false
-runme    = "taskmgr1.exe"
+runme    = "cmdprompt.exe"
 pay      = nil
 
 #
