@@ -110,6 +110,7 @@ else
   pay.datastore['LPORT'] = rport
   pay.datastore['VNCPORT'] = vport
   pay.datastore['VIEWONLY'] = false
+  pay.datastore['SESSIONKILL'] = false
 end
 
 if (not courtesy)
